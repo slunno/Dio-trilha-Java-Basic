@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class VerificaApp {
 
 
-    public void VerificaBanco(){ 
+    public void VerificaApp(){ 
         VerificaBanco vb = new VerificaBanco();
         Scanner vs = new Scanner(System.in);
         LocalTime horaAtual = LocalTime.now();
@@ -46,7 +46,7 @@ public class VerificaApp {
                 break;
             default:
                 throw new AssertionError();
-                
+
         }
 
     }

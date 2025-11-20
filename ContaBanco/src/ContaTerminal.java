@@ -8,7 +8,7 @@ public class ContaTerminal {
         Scanner vs = new Scanner(System.in);
 
         VerificaApp vp = new VerificaApp();
-        vp.VerificaBanco();
+        vp.VerificaApp();
 
         
     }
